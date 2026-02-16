@@ -1,0 +1,19 @@
+{
+  "name": "docker-gen",
+  "version": "1.0.0",
+  "description": "Auto-generate optimized Dockerfiles with multi-stage builds",
+  "main": "docker-gen.js",
+  "bin": {
+    "docker-gen": "./docker-gen.js",
+    "dogen": "./docker-gen.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["docker", "dockerfile", "generator", "devops", "container"],
+  "author": "Nemo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}
